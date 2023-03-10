@@ -3,6 +3,7 @@
   "description": "Test the basics of UI Synchronization activities.",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.18.0-preview]",
     "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.System.Activities": "[23.2.0-preview]",
@@ -43,7 +44,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
