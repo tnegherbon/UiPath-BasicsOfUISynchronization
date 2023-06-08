@@ -157,7 +157,7 @@
                       </OutArgument>
                     </p:GetSecureCredential.Username>
                   </p:GetSecureCredential>
-                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  email'" sap:VirtualizedContainerService.HintSize="387.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SimulateType="True">
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  email'" EmptyField="True" sap:VirtualizedContainerService.HintSize="387.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SimulateType="True">
                     <ui:TypeInto.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2f587101-8741-4ab2-a8bf-a311425a93d1" InformativeScreenshot="2ebdc49ec4eb2f61faf8ca17b276719c" Selector="&lt;webctrl id='email' tag='INPUT' /&gt;">
                         <ui:Target.TimeoutMS>
@@ -174,7 +174,7 @@
                       </InArgument>
                     </ui:TypeInto.Text>
                   </ui:TypeInto>
-                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Secure Text 'INPUT  password'" sap:VirtualizedContainerService.HintSize="387.2,107.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_4" SimulateType="True">
+                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Secure Text 'INPUT  password'" EmptyField="True" sap:VirtualizedContainerService.HintSize="387.2,107.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_4" SimulateType="True">
                     <ui:TypeSecureText.SecureText>
                       <InArgument x:TypeArguments="ss:SecureString">
                         <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">pwdACME</CSharpValue>
@@ -216,7 +216,7 @@
                 </Sequence>
               </ui:OnUiElementAppear.Body>
               <ui:OnUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f393bf61-ba33-413c-a2eb-db040ee7e914" InformativeScreenshot="71484cef3fc18df2615c3ceed26948c0" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='H1' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f393bf61-ba33-413c-a2eb-db040ee7e914" InformativeScreenshot="f6f999cb1cf9e491324d93c845cae2a9" Selector="&lt;webctrl tag='H1' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
